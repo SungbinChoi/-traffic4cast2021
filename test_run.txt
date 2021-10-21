@@ -1,0 +1,14 @@
+
+# How to make predictions on traffic4cast 2021' testset
+
+1. Unzip all test data zip files ('BERLIN' 'CHICAGO' 'ISTANBUL' 'MELBOURNE','NEWYORK', 'VIENNA'), 
+   move them to '$BASE_DIR/0_data' folder
+    e.g., '$BASE_DIR/0_data/BERLIN/BERLIN_test_temporal.h5'
+
+2. cd $BASE_DIR/test
+   ./t1.sh
+   ./t2.sh
+  
+3. Core task test submission file will be generated as     $BASE_DIR/test_runs/t1/submit1.zip
+   Extended task test submission file will be generated as $BASE_DIR/test_runs/t2/submit2.zip
+
